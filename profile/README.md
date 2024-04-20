@@ -41,7 +41,8 @@ considered to be part of it.
 ## Data Sourcing
 
 In Rensetsu, data from a site will be scraped/copied based on its schedule. Some
-sites may require manual scraping due to some unique challenge to solve.
+sites may require manual scraping with approximate schedule due to some unique
+challenge to solve, written in [ISO 8601 Duration notation](https://en.wikipedia.org//wiki/ISO_8601#Durations).
 
 Below is a table when and what sites were being scraped, with UTC timezone:
 
@@ -55,9 +56,9 @@ Below is a table when and what sites were being scraped, with UTC timezone:
 | :-------------------------------- | :------- | :---------------------------- |
 | `04:30` [Trakt][trk][^1][^2][^3]  |          | `12:00` [Notify.moe][ntf][^1] |
 
-| Manual                  |
-| ----------------------- |
-| [SilverYasha DBTI][dmp] |
+| Manual                         |
+| ------------------------------ |
+| `~P3M` [SilverYasha DBTI][dmp] |
 
 [^1]: We used publicly available dump to reduce server load to the target site
 [^2]: Dump file was provided by 3rd party
