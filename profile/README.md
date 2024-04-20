@@ -1,6 +1,6 @@
 # Welcome to Rensetsu! 👋
 
-![banner](../img/banner.png)
+![banner](https://raw.githubusercontent.com/rensetsu/.github/main/img/banner.png)
 
 Rensetsu is a project that aims to map several shows, movies, and books
 databases into one relation entry!
@@ -68,7 +68,7 @@ Below is a table when and what sites were being scraped, with UTC timezone:
 ## Licensing
 
 Unless stated otherwise, all modules and final product generated from our
-software were licensed under [MIT](../LICENSE).
+software were licensed under [MIT](https://raw.githubusercontent.com/rensetsu/.github/main/LICENSE).
 
 Our publicly available [dump files][dmp] were licensed under CC0 1.0, means
 you can use it whatever you wish without attributing the source.
