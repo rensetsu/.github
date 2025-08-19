@@ -52,9 +52,10 @@ Below is a table when and what sites were being scraped, with UTC timezone:
 | :--------------------------- | :---------------------------- | :-------- | :------------------------- |
 | `12:45` [aniDB][adb][^1][^2] | `01:00` [bgm.tv][bgm][^1][^2] |           | `16:30` [AnimeThemes][dmp] |
 
-| Friday                            | Saturday | Sunday                        |
-| :-------------------------------- | :------- | :---------------------------- |
-| `04:30` [Trakt][trk][^1][^2][^3]  |          | `12:00` [Notify.moe][ntf][^1] |
+| Friday                                 | Saturday | Sunday                        |
+| :------------------------------------- | :------- | :---------------------------- |
+| `04:30` [Trakt][trk][^1][^2][^3]       |          | `12:00` [Notify.moe][ntf][^1] |
+| `05:00` [Extended Trakt][xtrk][^3][^4] |          |                               |
 
 | Manual                         |
 | ------------------------------ |
@@ -63,6 +64,7 @@ Below is a table when and what sites were being scraped, with UTC timezone:
 [^1]: We used publicly available dump to reduce server load to the target site
 [^2]: Dump file was provided by 3rd party
 [^3]: Currently does not use Rensetsu Media Info data standard
+[^4]: Extends metadata of [aniTrakt][trk] dump file while utilizing different schema.
 
 <!-- markdownlint-enable MD013 -->
 
@@ -81,3 +83,4 @@ you can use it whatever you wish without attributing the source.
 [dmp]: https://github.com/rensetsu/db.rensetsu.public-dump
 [trk]: https://github.com/rensetsu/db.trakt.anitrakt
 [ntf]: https://github.com/rensetsu/db.notify.rensetsu-mirai
+[xtrk]: https://github.com/rensetsu/db.trakt.extended-anitrakt
